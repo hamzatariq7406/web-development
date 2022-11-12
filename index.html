@@ -14,14 +14,11 @@
             <span>First Name:</span>
             <input 
                 class="inputField"
+                onkeypress= firstNameOnChangeHandler(event)
             />
         </div>
-        <div>
-            <input type="radio" />
-            <span> Male </span>
-        </div>
-            <!-- <button class="button" onclick = reportErrorClickHandler() >
-                Report Error
-            </button> -->
+            <button class="button" onclick = submitButtonClickHandler() >
+                Submit
+            </button>
     </body>
 </html> 
