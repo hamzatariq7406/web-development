@@ -12,6 +12,12 @@
     cursor: pointer;
 }
 
+.inputField {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+}
+
 .button:hover{
     background-color: #4CAF50;
 }
